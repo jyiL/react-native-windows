@@ -1,24 +1,25 @@
 {
-  "name": "ReactNativeWindows",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
-  },
-  "dependencies": {
-    "react": "16.2.0",
-    "react-native": "0.52.0",
-    "react-native-windows": "0.52.0-rc.0"
-  },
-  "devDependencies": {
-    "babel-jest": "22.1.0",
-    "babel-preset-react-native": "4.0.0",
-    "jest": "22.1.2",
-    "react-test-renderer": "16.2.0",
-    "rnpm-plugin-windows": "^0.2.8"
-  },
-  "jest": {
-    "preset": "react-native"
-  }
+	"name": "windows",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"react": "16.0.0",
+		"react-native": "0.50.0",
+		"react-native-animatable": "^1.2.4",
+		"react-native-windows": "0.50.0"
+	},
+	"devDependencies": {
+		"babel-jest": "22.0.6",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "22.0.6",
+		"react-test-renderer": "16.0.0",
+		"rnpm-plugin-windows": "^0.2.8"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
 }
