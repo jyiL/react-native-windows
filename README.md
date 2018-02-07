@@ -8,4 +8,6 @@ This is a example for echarts
 
 
 #### QUICK START
+~~~
 react-native run-windows
+~~~
