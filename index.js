@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import Main from './src/routes/Home'
+import App from './App';
 
-AppRegistry.registerComponent('windows', () => Main)
+AppRegistry.registerComponent('reactNativeWindows', () => App);
